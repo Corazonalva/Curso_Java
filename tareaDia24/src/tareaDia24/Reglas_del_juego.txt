@@ -1,0 +1,20 @@
+- Se reparte el número de cartas asignadas al número de jugadores asignados. (default 5 cartas a 3 jugadores).
+- Al iniciar se suman los puntos de las cartas que tenga cada jugador.
+- Se coloca una carta en juego.
+
+- Se inicia la ronda para tirar cartas, se le pregunta si quiere o no tirar.
+- Si el jugador decide tirar, el sistema busca dentro de las cartas del jugador la primer carta que coincida con el palo de la carta en juego.
+- Si la encuentra se le quita la carta al jugador y se le restan los puntos de dicha carta a su puntuacion general.
+- Si el jugador no tiene una carta que coincida con el palo de la carta en juego, el sistema toma la primer carta del mazo y la
+compara si el palo de la carta tomada coincide con el palo de la carta en juego, si no coincide se le agrega la carta al jugador y 
+se le suman los puntos de la carta agregada,y despues toma la ultima carta del mazo y la compara nuevamente si no coincide nuevamente
+repite el ciclo tomando la primera y la ultima carta del mazo hasta que encuentra una cartaa que coincide con el palo de la carta en 
+juego y esta carta que coincide se le restan los puntos al jugador.
+
+- Entonces le tocara el turno al siguiente jugador, y se repitie el ciclo de comparaciones para cada jugador.
+
+- Si el jugador decide no tirar se toma la primer carta del mazo se le agrega al jugador y se le suman los puntos de dicha carta.
+
+- El juego termina cuando algun jugador se queda sin puntos o sin cartas y ganara  dicho jugador..
+- El juego tambien terminara si en el mazo ya no queda ninguna carta, en este caso ganara el jugador con menos puntos.
+
